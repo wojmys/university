@@ -16,7 +16,7 @@ public class DbService {
     private final StudentRepository studentRepository;
     private final AddressRepository addressRepository;
 
-    private List<Student> getAllStudents() {
+    public List<Student> getAllStudents() {
         return studentRepository.findAll();
     }
 
